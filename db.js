@@ -1,6 +1,5 @@
 const mongoose =require("mongoose");
-console.log("mongoose")
-mongoose.connect("mongodb+srv://jaskaranahuja111:Admin123A@cluster0.95cte.mongodb.net/coursera-app")
+
 const user = require("./routes/user");
 const Schema = mongoose.Schema;
 const ObjectId= mongoose.Types.ObjectId
