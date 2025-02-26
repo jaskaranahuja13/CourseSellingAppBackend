@@ -26,6 +26,16 @@ adminRouter.get("/course",(req,res)=>{
         message: "admin course endpoint"
     })
 })
+adminRouter.get("/course/bulk",(req,res)=>{
+    res.json({
+        message: "admin course endpoint"
+    })
+})
+adminRouter.put("/course/",(req,res)=>{
+    res.json({
+        message: "admin course endpoint"
+    })
+})
 
 module.exports = {
     adminRouter: adminRouter
